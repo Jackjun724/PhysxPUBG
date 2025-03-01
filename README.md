@@ -65,4 +65,6 @@ PUBG has a relatively large map model, and I reduce memory reads by calculating 
 
 ## Last
 This project still has many bugs, and I will not fix them. It is sufficient for researchers and those who use it for their own purposes, but it is far from enough for those who hope to sell cheat software by copying the code.
-Please give me your star, thanks :)
+
+
+## Please give me your star, thanks :)
