@@ -52,7 +52,7 @@ The project requires Embree-related DLLs and DMA-related DLLs to run. For securi
 First, you need to have the saved model file, which is named as VertiesNum_IndicesNum.obj. I usually recommend editing it in MeshLab, where you should delete the unwanted Faces but keep all vertices intact. This will maintain the index data of the reconstructed model. Then export it as a JSON file which will have the new vertex indices. Copy it to MeshPatcher.h file!
 
 ## Patch Video
-<video src="./patch.mp4" controls="controls" muted="muted"></video>
+<video src="https://github.com/Jackjun724/PhysxPUBG/raw/refs/heads/main/patch.mp4" controls="controls" muted="muted"></video>
 
 ## About Offsets
 You must update the address in the Offset.h file, which is the address for the historical version. You can find the addresses in Physx from this [article of mine](https://super-timimus-838.notion.site/PhysX-6eccab27717c47d09a07917c4640e386?pvs=74).
