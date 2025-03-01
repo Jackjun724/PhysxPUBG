@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\math.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_dx11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_win32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_tables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_widgets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ue4math\matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ue4math\quat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ue4math\rotator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ue4math\transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ue4math\vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\VectorHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\DMALibrary\Memory\InputManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\DMALibrary\Memory\Memory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\DMALibrary\Memory\Registry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\DMALibrary\Memory\Shellcode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\DMALibrary\DMALibrary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\DMALibrary\pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\Throttler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ext\imgui\imconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_dx11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_rectpack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_textedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_truetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ue4math\matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ue4math\quat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ue4math\rotator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ue4math\transform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ue4math\ue4math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ue4math\vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\VectorHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DMALibrary\libs\leechcore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DMALibrary\libs\vmmdll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DMALibrary\Memory\InputManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DMALibrary\Memory\Memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DMALibrary\Memory\Registry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DMALibrary\Memory\Shellcode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DMALibrary\nt\structs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DMALibrary\framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DMALibrary\pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Offset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore_builder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore_device.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore_geometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore_quaternion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore_ray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\embree4\rtcore_scene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\visible\Physx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\VisibleScene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\LineTrace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\VisibleCheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\Throttler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\MeshPatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ext\DMALibrary\libs\vmm.lib" />
+    <Library Include="ext\DMALibrary\libs\leechcore.lib" />
+  </ItemGroup>
+</Project>
