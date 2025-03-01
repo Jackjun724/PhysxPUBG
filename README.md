@@ -30,13 +30,13 @@ This project is a tool that dynamically reconstructs the game physics model exte
 - **VisibleCheck**: Handles scene updates and visibility detection processing
 
 ## Roadmap
-[x] Rendering of static rigid bodies
-[x] Rendering of dynamic rigid bodies
-[x] Rendering of dynamically loaded height fields
-[x] Destructible static rigid bodies in PUBG, such as buildings in Sanhok map
-[x] Game-specific shaped patches, such as wire mesh fences
-[ ] Fix occasional memory errors
-[ ] Fix mesh rendering issues that frequently occur on low-memory host computers
+- [x] Rendering of static rigid bodies
+- [x] Rendering of dynamic rigid bodies
+- [x] Rendering of dynamically loaded height fields
+- [x] Destructible static rigid bodies in PUBG, such as buildings in Sanhok map
+- [x] Game-specific shaped patches, such as wire mesh fences
+- [ ] Fix occasional memory errors
+- [ ] Fix mesh rendering issues that frequently occur on low-memory host computers
 
 
 ## Build & Run
