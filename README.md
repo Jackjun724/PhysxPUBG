@@ -74,4 +74,4 @@ This project still has many bugs, and I will not fix them. It is sufficient for 
 
 
 ## Cooperation
-We are a professional software development company, involved in web development, security fields, desktop/mobile applications, and machine learning/LLM applications. If you need, please contact us via email (no illegal disturbances please) <jackjun0724@gmail.com>.
+We are a professional software development company, involved in web development, security fields, desktop/mobile applications, and machine learning/LLM applications. If you need, please contact us via email (Do not disturb with illegal business) <jackjun0724@gmail.com>.
